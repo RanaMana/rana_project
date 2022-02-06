@@ -7,6 +7,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link href="main.css" rel="stylesheet" type="text/css" />
+    <script src="app.js"></script>
   </head>
   <body>
     <div id="logo">
@@ -32,21 +33,5 @@
       <button>Submit</button>
       <button>Forgot?</button>
     </div>
-
-    <script>
-      function togglePass() {
-        if (
-          document.getElementById("pass").getAttribute("type") == "password"
-        ) {
-          document.getElementById("pass").setAttribute("type", "text");
-          document
-            .getElementById("icon")
-            .setAttribute("class", "fa fa-eye-slash");
-        } else {
-          document.getElementById("pass").setAttribute("type", "password");
-          document.getElementById("icon").setAttribute("class", "fa fa-eye");
-        }
-      }
-    </script>
   </body>
 </html>
