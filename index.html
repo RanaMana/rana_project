@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PRoMS</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="main.css" rel="stylesheet" type="text/css">
+    </head>
+    <body> 
+      <div id="logo">
+            <img src="./assets/vector.9d9734f6.svg"/>
+            <img src="./assets/logo-text.395d8449.svg"/>
+            <p> Proven Robotics Management System</p>  
+      </div> 
+      
+      <div id="login">
+            <h1> Sign In </h1>   
+            <input placeholder="Username"/>
+            <div class="input">
+              <input placeholder="Password" type="password" id="pass" name="password"/>
+              <span class="eye" onclick="togglePass()"> <i id="icon" class="fa fa-eye"></i> </span>
+            </div>
+            <button> Submit </button>
+            <button> Forgot? </button>
+       </div>  
+
+       <script>
+         function togglePass() {
+          if (document.getElementById('pass').getAttribute('type') == 'password') {
+            document.getElementById('pass').setAttribute('type', 'text');
+            document.getElementById('icon').setAttribute('class', 'fa fa-eye-slash');
+          } else {
+            document.getElementById('pass').setAttribute('type', 'password');
+            document.getElementById('icon').setAttribute('class', 'fa fa-eye');
+          }
+         }
+       </script>
+    </body>
+</html>
+    
