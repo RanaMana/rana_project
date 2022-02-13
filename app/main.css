@@ -65,19 +65,15 @@ button {
   border-radius: 7px;
   padding: 0px 5px;
 }
+.email-field:hover {
+  outline: 2px lightblue solid;
+}
 .input:hover {
-  border: 2px lightblue solid;
+  outline: 2px lightblue solid;
 }
-.input:active {
-  border: none;
-}
-
 #login {
   /* border: 1px black solid; */
   border-radius: 0px;
-}
-.username-input {
-  border: 1px blue dotted;
 }
 .eye {
   cursor: pointer;
@@ -106,4 +102,8 @@ button {
   position: absolute;
   top: 5em;
   left: 7em;
+}
+
+input:focus {
+  outline: none;
 }
