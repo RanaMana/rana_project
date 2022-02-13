@@ -6,8 +6,8 @@ body {
 }
 p {
   color: lightgrey;
-  font-size: 9px;
-  padding: 0px 20px 13px 20px;
+  font-size: 11px;
+  padding: 0px 20px 40px 44px;
 }
 h1 {
   display: block;
@@ -17,33 +17,59 @@ h1 {
   margin-inline-end: 0px;
 }
 input {
-  align-items: center;
+  height: 30px;
+  width: 270px;
+  flex-grow: 1;
+  border:none;
+  /* align-items: center;
   height: 100%;
-  padding: var(--input-padding);
+  /* padding: var(--input-padding);
   padding-top: 0;
-  padding-bottom: 0;
-  color: var(--v-input-color);
-  font-family: sans-serif monospace;
-  background-color: var(--background-page);
+  padding-bottom: 0; */
+  /* color: var(--v-input-color);
+  font-family: sans-serif monospace; */
+  /* background-color: var(--background-page);
   border: var(--border-width) solid var(--border-normal);
-  border-radius: var(--border-radius);
+  border-radius: var(--border-radius); */ */
 }
 button {
-  background-color: slateblue;
   padding: 1px 12px;
   cursor: pointer;
+  idth: 95px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #8376f3;
+  padding: 1px 12px;
+  cursor: pointer;
+  border: none;
+  color: white;
 }
 .input {
-  border: 1px black solid;
+  height: 36px;
+  width: 271px;
+  border: 1px solid lightgrey;
+  margin: 10px 0px 22px 0px;
+  padding:0px 5px ;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  border-radius: 6px;
+}
+.email-field {
+height:35px;
+width:271px;
+border: 1px solid lightgrey;
+border-radius: 7px;
+padding: 0px 5px;
 }
 .input:hover {
-  border: 5px red dashed;
+  border: 2px lightblue solid;
 }
 #logo {
-  border: 1px black solid;
+  /* border: 1px black solid; */
 }
 #login {
-  border: 1px black solid;
+  /* border: 1px black solid; */
   border-radius: 0px;
 }
 .username-input {
@@ -57,15 +83,15 @@ button {
   width: 100%;
   height: 100%;
   max-width: 500px;
+  border: 1px solid rgb(183, 0, 255);
+  padding: 39px 17px 49px 64px;
   background-color: rgb(255, 255, 255, 255);
 }
 
 .art {
   background-image: url(assets/Pattern.cc25697c.svg),
-    radial-gradient(circle, #889bf3 35%, #836af3 88%);
-  position: relative;
-  -webkit-box-flex: 1;
-  -ms-flex-positive: 1;
+  radial-gradient(circle, #889bf3 35%, #836af3 88%);
+   position: relative;
   flex-grow: 1;
   height: 100%;
 }
