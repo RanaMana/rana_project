@@ -1,12 +1,9 @@
 const express = require("express");
-
+const PORT = 5555;
 const app = express();
 
-app.set("port", 5555);
+app.use(express.static("app"));
 
-app.get("/", (req, res) => {
-  console.log("REQ: ", req);
-});
-app.listen(5555, () => {
-  console.log(`Example app listening on port ${5555}`);
+app.listen(PORT, () => {
+  console.log(`Proven Robotics Server listening on port ${PORT}`);
 });
