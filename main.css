@@ -20,7 +20,7 @@ input {
   height: 30px;
   width: 270px;
   flex-grow: 1;
-  border:none;
+  border: none;
   /* align-items: center;
   height: 100%;
   /* padding: var(--input-padding);
@@ -30,12 +30,12 @@ input {
   font-family: sans-serif monospace; */
   /* background-color: var(--background-page);
   border: var(--border-width) solid var(--border-normal);
-  border-radius: var(--border-radius); */ */
+  border-radius: var(--border-radius); */
 }
 button {
   padding: 1px 12px;
   cursor: pointer;
-  idth: 95px;
+  width: 95px;
   height: 30px;
   border-radius: 5px;
   background-color: #8376f3;
@@ -49,25 +49,23 @@ button {
   width: 271px;
   border: 1px solid lightgrey;
   margin: 10px 0px 22px 0px;
-  padding:0px 5px ;
+  padding: 0px 5px;
   display: flex;
   flex-grow: 1;
   align-items: center;
   border-radius: 6px;
 }
 .email-field {
-height:35px;
-width:271px;
-border: 1px solid lightgrey;
-border-radius: 7px;
-padding: 0px 5px;
+  height: 35px;
+  width: 271px;
+  border: 1px solid lightgrey;
+  border-radius: 7px;
+  padding: 0px 5px;
 }
 .input:hover {
   border: 2px lightblue solid;
 }
-#logo {
-  /* border: 1px black solid; */
-}
+
 #login {
   /* border: 1px black solid; */
   border-radius: 0px;
@@ -90,8 +88,8 @@ padding: 0px 5px;
 
 .art {
   background-image: url(assets/Pattern.cc25697c.svg),
-  radial-gradient(circle, #889bf3 35%, #836af3 88%);
-   position: relative;
+    radial-gradient(circle, #889bf3 35%, #836af3 88%);
+  position: relative;
   flex-grow: 1;
   height: 100%;
 }
